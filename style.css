@@ -1,0 +1,268 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+  }
+  nav button{
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    /* border: none; */
+  }
+
+ header{
+    background-image: url("./assets/Hero-bg.png");
+    align-items: center;
+ }
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.hero h1{
+    margin-left: 120px;
+   margin-top: 20px;
+}
+.hero p{
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+.btn{
+   margin-left: 550px;
+   margin-top: 20px;
+   color: #FFFFFF;
+   background-color: #0D1321;
+   padding: 14px 18px;
+   border-radius: 5px;
+   border: none;
+   
+
+}
+
+
+/* Main Section developement-part*/
+
+.development-part{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.development-part-heading{
+   text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    
+    padding: 80px 90px 80px 9px;
+    margin: 50px 100px;
+   
+
+}
+.development-part-heading p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.development-part-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   
+}
+.development-part-content h3{
+    color: #0D1321;
+    margin-bottom: 20px;
+}
+
+.development-part-content p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding: 14px 32px;
+   
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    
+    
+}
+
+
+/* Inspiration of web development  section */
+
+.inspiration{
+    margin-top: 50px;
+}
+
+
+.inspiration-title{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.inspiration-title p
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+
+/* Skill Title Section */
+.skill-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.skill-title h1{
+    margin-bottom: 20px;
+}
+.skill-title p{
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+.skill{
+    display: flex;
+    gap: 20px;
+
+padding: 40px;
+margin: 20px 24px;
+}
+.skill-section{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.skill-section h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+.skill-section1{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-section1 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill-section1 p {
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+.skill-section1 a{
+    color: black;
+    font-weight: bold;
+}
+.skill-section a{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+/* Footer Section */
+
+.footer{
+    
+}
+.input-area-title{
+    text-align: center;
+    background-image: url(./assets/handshake.jpg);
+    width: 1140px;
+    height: 500px;
+    margin :32px 0px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 150px 48px;
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    
+}
+.input-area-heading{
+   align-items: center;
+   margin-top: 50px;
+ 
+  
+}
+
+.input-area-heading h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+font-weight: 700;
+    
+}
+.input-area-heading p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    gap: 30px;
+}
+.input input{
+    display: block;
+    height: 30px;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+   margin-left: 200px;
+   margin-top: 30px;
+   
+
+}
+.input button{
+    display: block;
+    padding: 10px 28px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   border: none;
+
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 150px;
+}
+
+
